@@ -1,6 +1,8 @@
 
 import becker.robots.City;
 import becker.robots.Direction;
+import becker.robots.Robot;
+import becker.robots.Wall;
 
 /*
  * To change this template, choose Tools | Templates
@@ -20,6 +22,10 @@ public class A1Q1 {
         // Create City for robot
         City Na = new City();
         Robot Steve = new Robot(Na, 3, 4, Direction. WEST);
-        
+        // Create Walls
+        new Wall (Na, 4, 4, Direction. SOUTH);
+        new Wall (Na, 4, 3, Direction.NORTH);
+        new Wall (Na, 4, 4, Direction. EAST);
+        new Wall (Na, 4, 4, Direction. NORTH);
     }
 }
