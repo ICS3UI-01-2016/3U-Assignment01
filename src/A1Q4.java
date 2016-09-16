@@ -28,7 +28,7 @@ public class A1Q4 {
         
         //lable Mazenav2
         Mazenav2.setLabel("M2");
-        //set color of mark
+        //set color of Mazenav2
         Mazenav2.setColor(Color.BLUE);
         
         //create walls in Maze
@@ -63,14 +63,24 @@ public class A1Q4 {
         Mazenav2.turnLeft();
         
         //turn 5 movements for Mazenav1
-        Mazenav1.turnLeft();
-        Mazenav1.turnLeft();
-        Mazenav1.turnLeft();
+        //none this turn
         
         //turn 5 movements for Mazenav2
+        Mazenav2.move();
+        
+        //turn 6 movements for Mazenav1
+        Mazenav1.turnLeft();
+        
+        //turn 6 movements for Mazenav2
         Mazenav2.turnLeft();
         Mazenav2.turnLeft();
         Mazenav2.turnLeft();
+        
+        //turn 7 movements for Mazenav1
+        Mazenav1.move();
+        
+        //turn 7 movements for Mazenav2
+        Mazenav2.move();
         
       
         
