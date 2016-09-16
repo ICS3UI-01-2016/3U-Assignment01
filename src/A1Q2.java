@@ -24,17 +24,17 @@ public class A1Q2 {
         //make city
         City km = new City();
         //create a robot
-        Robot karel = new Robot(km, 1,2, Direction.SOUTH);
+        Robot karel = new Robot(km,1,2,Direction.SOUTH);
         //put newspaper on grounf
         new Thing (km,2,2);
         //make wall inbetween karel's route to newspaper
-        new Wall(km, 1, 2, Direction.EAST);
-        new Wall(km, 2, 1, Direction.SOUTH);
-        new Wall(km, 1, 2, Direction.NORTH);
-        new Wall(km, 1, 1, Direction.NORTH);
-        new Wall(km, 1, 2, Direction.SOUTH);
-        new Wall(km, 1, 1, Direction.WEST);
-        new Wall(km, 2, 1, Direction.WEST);
+        new Wall(km,1,2,Direction.EAST);
+        new Wall(km,2,1,Direction.SOUTH);
+        new Wall(km,1,2,Direction.NORTH);
+        new Wall(km,1,1,Direction.NORTH);
+        new Wall(km,1,2,Direction.SOUTH);
+        new Wall(km,1,1,Direction.WEST);
+        new Wall(km,2,1,Direction.WEST);
         //get karel to get newspaper
        karel.turnLeft();
        karel.turnLeft();
