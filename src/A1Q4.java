@@ -37,6 +37,45 @@ public class A1Q4 {
         new Wall(Maze,1,1,Direction.SOUTH);
         
         //turn 1 movements for Mazenav1
+        Mazenav1.move();
+        
+        //turn 1 movements for Mazenav2
+        Mazenav2.move();
+        
+         //turn 2 movements for Mazenav1
+        Mazenav1.move();
+        
+        //turn 2 movements for Mazenav2
+        Mazenav2.turnLeft();
+        
+        //turn 3 movements for Mazenav1
+        //none for this turn
+        
+        //turn 3 movements for Mazenav2
+        Mazenav2.move();
+        
+        //turn 4 movements for Mazenav1
+        //none for this turn
+        
+        //turn 4 movements for Mazenav2
+        Mazenav2.turnLeft();
+        Mazenav2.turnLeft();
+        Mazenav2.turnLeft();
+        
+        //turn 5 movements for Mazenav1
+        Mazenav1.turnLeft();
+        Mazenav1.turnLeft();
+        Mazenav1.turnLeft();
+        
+        //turn 5 movements for Mazenav2
+        Mazenav2.turnLeft();
+        Mazenav2.turnLeft();
+        Mazenav2.turnLeft();
+        
+      
+        
+        
+        
         
     }
 }
