@@ -11,7 +11,7 @@ import becker.robots.Wall;
 
 /**
  *
- * @author ayyaf3300
+ * @author ayyaf3300 
  */
 public class NewMain {
 
