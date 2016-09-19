@@ -29,7 +29,14 @@ public class assigment1 {
         new Wall (SA,2,2,Direction.EAST);
         new Wall (SA,2,1,Direction.NORTH);
         new Wall (SA,2,2,Direction.NORTH);
-        Robot wallie = new Robot (SA,1,1,Direction.WEST); 
+        Robot wallie = new Robot (SA,1,1,Direction.WEST);
+        wallie.move();
+        wallie.turnLeft();
+        wallie.move();wallie.move();wallie.move();wallie.turnLeft();
+        wallie.move();wallie.move();wallie.move();wallie.turnLeft();
+        wallie.move();wallie.move();wallie.move();wallie.turnLeft();
+        wallie.move();wallie.move();
+        
     }
 }
 
