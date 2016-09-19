@@ -26,29 +26,35 @@ public class A1Q4 {
         Robot bill = new Robot (village,0,0,Direction.SOUTH);
         Robot steve = new Robot (village,0,1,Direction.SOUTH);
         
+        //Label Them
+        bill.setLabel("B");
+        steve.setLabel("S");
+        
         //Make the walls
         new Wall (village,0,1,Direction.WEST);
         new Wall (village,1,1,Direction.WEST);
         new Wall (village,1,1,Direction.SOUTH);
         
-        //Make Bill move
+        
         bill.move();
+        steve.move();
         bill.move();
         bill.turnLeft();
+        steve.turnLeft();
+        steve.move();
+        steve.turnLeft();
+        steve.turnLeft();
+        steve.turnLeft();
+        steve.move();
+        steve.turnLeft();
+        steve.turnLeft();
+        steve.turnLeft();
+        steve.move();
         bill.move();
         
-        //Make Steve Move
-        steve.move();
-        steve.turnLeft();
-        steve.move();
-        steve.turnLeft();
-        steve.turnLeft();
-        steve.turnLeft();
-        steve.move();
-        steve.turnLeft();
-        steve.turnLeft();
-        steve.turnLeft();
-        steve.move();
+        
+        
+        
         
         
       
