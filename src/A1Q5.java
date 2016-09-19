@@ -3,6 +3,7 @@ import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
 import becker.robots.Thing;
+import becker.robots.Wall;
 import java.awt.Color;
 
 /*
@@ -12,7 +13,7 @@ import java.awt.Color;
 
 /**
  *
- * @author khant5061
+ * @author Talha Khan
  */
 public class A1Q5 {
 
@@ -37,6 +38,14 @@ public class A1Q5 {
             t = new Thing(a1q5,2,2);
             t.setColor(Color.cyan);
           // A thread that determines karel's movements
+          
+          // create wall 
+           new Wall(a1q5,3,3,Direction.EAST);
+           new Wall(a1q5,3,3,Direction.SOUTH);
+           new Wall(a1q5,2,3,Direction.EAST);
+           new Wall(a1q5,2,3,Direction.NORTH);
+           new Wall(a1q5,2,3,Direction.WEST);
+            
         Thread karelThread = new Thread(new Runnable() {
             
             // what karel should be doing
@@ -76,7 +85,9 @@ public class A1Q5 {
 
         // tell both threads to start running
         karelThread.start();
+        
         mariaThread.start();
+        
         
             
             
