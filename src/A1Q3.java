@@ -54,7 +54,25 @@ public class A1Q3 {
         karel.turnLeft();
         karel.move();
         // make karel plant flag on top of mountain
-        karel.putThin
+        karel.putThing();
+        // descend down mountain
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.move();
+        karel.turnLeft();
+        
+        
+        
+        
         
         
         

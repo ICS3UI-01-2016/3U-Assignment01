@@ -25,7 +25,7 @@ public class A1Q2 {
         City km = new City();
         //create a robot
         Robot karel = new Robot(km,1,2,Direction.SOUTH);
-        //put newspaper on grounf
+        //put newspaper on ground
         new Thing (km,2,2);
         //make wall inbetween karel's route to newspaper
         new Wall(km,1,2,Direction.EAST);
