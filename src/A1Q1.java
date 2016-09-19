@@ -13,7 +13,7 @@ import becker.robots.Wall;
  *
  * @author ayyaf3300 
  */
-public class NewMain {
+public class A1Q1 {
 
     /**
      * @param args the command line arguments
@@ -46,26 +46,36 @@ public class NewMain {
         //get dino to turn left
         dino.turnLeft();    
         
+        moves = 0;  
         while(moves < 3){
             dino.move();
             moves = moves + 1;
         }
+        
         dino.turnLeft();
-        dino.turnLeft();  
         
-        dino.move();
-        dino.move();
-        dino.move();
-        
-        dino.turnLeft(); 
-        
-        dino.move();
-        dino.move();
-        dino.move();
+        moves = 0;  
+        while(moves < 3){
+            dino.move();
+            moves = moves + 1;
+        }
         
         dino.turnLeft(); 
         
-        dino.move();
+       moves = 0;  
+        while(moves < 3){
+            dino.move();
+            moves = moves + 1;
+        }
+        
+        dino.turnLeft();
+        
+        moves = 0;      
+        while(moves < 1){
+            dino.move();
+            moves = moves + 1;
+        }
+        
         }
 }
 
