@@ -33,6 +33,8 @@ public class A1Q5 {
         //Create the Robots
         Robot karel = new Robot(ayr,3,3,Direction.EAST);
         Robot maria = new Robot(ayr,0,1,Direction.WEST);
+        karel.setLabel("K");
+        maria.setLabel("M");
         
         //Create the things
         new Thing(ayr,0,0);
