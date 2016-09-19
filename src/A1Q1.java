@@ -27,7 +27,7 @@ public class A1Q1 {
      City ye = new City(); 
      
      //create a robot
-     Robot Beshoy = new Robot (ye,0,0,Direction.SOUTH);
+     Robot beshoy = new Robot (ye,0,0,Direction.SOUTH);
  //create walls 
      new Wall (ye,1,1,Direction.NORTH);
      new Wall (ye,1,2,Direction.NORTH);
@@ -38,22 +38,22 @@ public class A1Q1 {
      new Wall (ye,2,1,Direction.SOUTH);
      new Wall (ye,1,1,Direction.WEST);
      //get robot to move 
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.turnLeft();
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.turnLeft();
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.turnLeft();
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.move();
-     Beshoy.turnLeft();
+     beshoy.move();
+     beshoy.move();
+     beshoy.move();
+     beshoy.turnLeft();
+     beshoy.move();
+     beshoy.move();
+     beshoy.move();
+     beshoy.turnLeft();
+     beshoy.move();
+     beshoy.move();
+     beshoy.move();
+     beshoy.turnLeft();
+     beshoy.move();
+     beshoy.move();
+     beshoy.move();
+     beshoy.turnLeft();
      
     }
 }
