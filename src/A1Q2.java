@@ -55,14 +55,18 @@ public class A1Q2 {
         rick.turnLeft();
         rick.turnLeft();
         
-        int moves = 0;
-        while (moves < 3) {
-            moves = moves + 1;
-            rick.move();
-            rick.turnLeft();
-            rick.turnLeft();
-            rick.turnLeft();
-        }
+        rick.move();
+        rick.turnLeft();
+        rick.turnLeft();
+        rick.turnLeft();
+        rick.move();
+        rick.turnLeft();
+        rick.turnLeft();
+        rick.turnLeft();
+        rick.move();
+        rick.turnLeft();
+        rick.turnLeft();
+        rick.turnLeft();
         
         rick.putThing();
         
