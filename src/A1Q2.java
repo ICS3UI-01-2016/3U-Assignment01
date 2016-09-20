@@ -2,6 +2,7 @@
 import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
+import becker.robots.RobotSE;
 import becker.robots.Thing;
 import becker.robots.Wall;
 import java.awt.Color;
@@ -25,7 +26,7 @@ public class A1Q2 {
         // Create city 
         City Q2 = new City();
         
-        // Create walls
+        // Add walls
         new Wall(Q2,1,1,Direction.NORTH);
         new Wall(Q2,1,2,Direction.NORTH);
         new Wall(Q2,1,2,Direction.EAST);
@@ -35,7 +36,7 @@ public class A1Q2 {
         new Wall(Q2,1,1,Direction.WEST);
         
         // Add robot
-        Robot rick = new Robot(Q2,1,2,Direction.SOUTH);
+        RobotSE rick = new RobotSE(Q2,1,2,Direction.SOUTH);
         rick.setColor(Color.BLACK);
         
         // Add thing

@@ -23,7 +23,7 @@ public class A1Q3 {
         // Create city
         City Q3 = new City();
         
-        // Add walls/mountain
+        // Add walls
         new Wall(Q3,3,2,Direction.WEST);
         new Wall(Q3,3,2,Direction.NORTH);
         new Wall(Q3,2,3,Direction.WEST);
@@ -40,9 +40,27 @@ public class A1Q3 {
         // Add robot
         RobotSE rick = new RobotSE(Q3,3,0,Direction.EAST);
         
-        // Robot ascends mountain
-        
-        // Plant flag
-        // Robot descends mountain
+        // Move robot
+        rick.move();
+        rick.pickThing();
+        rick.turnLeft();
+        rick.move();
+        rick.turnRight();
+        rick.move();
+        rick.turnLeft();
+        rick.move();
+        rick.move();
+        rick.turnRight();
+        rick.move();
+        rick.putThing();
+        rick.move();
+        rick.turnRight();
+        rick.move();
+        rick.turnLeft();
+        rick.move();
+        rick.turnRight();
+        rick.move();
+        rick.move();
+        rick.turnLeft();
     }
 }
