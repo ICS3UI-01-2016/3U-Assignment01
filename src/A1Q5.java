@@ -59,6 +59,11 @@ public class A1Q5 {
         karel.turnLeft();
         karel.turnLeft();
         karel.move();
+        karel.pickThing();
+        karel.move();
+        karel.pickThing();
+        karel.turnLeft();
+        
         
         
         
