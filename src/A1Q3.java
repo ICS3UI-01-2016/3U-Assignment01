@@ -2,6 +2,7 @@
 import becker.robots.City;
 import becker.robots.Direction;
 import becker.robots.Robot;
+import becker.robots.Thing;
 import becker.robots.Wall;
 
 /*
@@ -35,7 +36,29 @@ public class A1Q3 {
         new Wall (SK, 3,4, Direction. NORTH);
         new Wall (SK, 3,4, Direction. EAST);
         new Wall (SK, 4,4, Direction. EAST);
-        new Thing (SK, )
+        new Thing (SK, 4,1);
+        
+        //Get Chen to move
+        Chen. move();
+        Chen. pickThing();
+        Chen. turnLeft();
+        Chen. move();
+        Chen. turnLeft();
+        Chen. turnLeft ();
+        Chen. turnLeft ();
+        Chen. move();
+        Chen. turnLeft();
+        Chen.move();
+        Chen.move();
+        Chen.turnLeft();
+        Chen.turnLeft();
+        Chen.turnLeft();
+        Chen.move();
+        Chen.putThing();
+        
+        
+                
+                
         
         
         
