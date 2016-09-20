@@ -60,15 +60,20 @@ public class A1Q3 {
         Chen. turnLeft();
         Chen. turnLeft();
         Chen. move();
+        Chen. turnLeft();
+        Chen. move();
+        Chen. turnLeft();
+        Chen. turnLeft();
         Chen.turnLeft();
+        Chen.move();
+        Chen.move();
+        Chen.turnLeft();
+        
+        
+        
+
+        
        
         
-        
-        
-                
-                
-        
-        
-        
-    }
+       }
 }
