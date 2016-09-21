@@ -4,6 +4,7 @@ import becker.robots.Direction;
 import becker.robots.RobotSE;
 import becker.robots.Thing;
 import becker.robots.Wall;
+import java.awt.Color;
 
 /*
  * To change this template, choose Tools | Templates
@@ -36,9 +37,11 @@ public class A1Q3 {
         
         // Add flag
         Thing flag = new Thing(Q3,3,1);
+        flag.setColor(Color.BLUE);
         
         // Add robot
         RobotSE rick = new RobotSE(Q3,3,0,Direction.EAST);
+        rick.setColor(Color.BLACK);
         
         // Move robot
         rick.move();

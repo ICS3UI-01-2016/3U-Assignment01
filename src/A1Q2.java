@@ -36,11 +36,12 @@ public class A1Q2 {
         new Wall(Q2,1,1,Direction.WEST);
         
         // Add robot
-        RobotSE rick = new RobotSE(Q2,1,2,Direction.SOUTH);
+        Robot rick = new Robot(Q2,1,2,Direction.SOUTH);
         rick.setColor(Color.BLACK);
         
         // Add thing
-        new Thing(Q2,2,2);
+        Thing paper = new Thing(Q2,2,2);
+        paper.setColor(Color.white);
         
         // Move robot
         rick.turnLeft();
