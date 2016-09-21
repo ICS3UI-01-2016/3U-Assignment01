@@ -43,11 +43,10 @@ public class A1Q5 {
         five.setColor(Color.BLACK);
         
         RobotSE rick = new RobotSE(Q5,3,3,Direction.EAST);
-        rick.setColor(Color.RED);
+        rick.setColor(Color.BLUE);
         rick.setLabel("R");
-        
         RobotSE bob = new RobotSE(Q5,0,1,Direction.WEST);
-        bob.setColor(Color.RED);
+        bob.setColor(Color.BLUE);
         bob.setLabel("B");
         
         bob.move();
@@ -67,6 +66,5 @@ public class A1Q5 {
         bob.pickThing();
         rick.pickThing();
         rick.turnLeft();
-  
     }
 }
