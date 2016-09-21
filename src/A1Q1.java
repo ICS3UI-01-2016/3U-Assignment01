@@ -34,7 +34,6 @@ public class A1Q1 {
         new Wall(Q1,2,1,Direction.WEST);
         new Wall(Q1,1,1,Direction.WEST);
         
-        
         // Add robot
         Robot rick = new Robot(Q1,0,3,Direction.WEST);
         rick.setColor(Color.BLACK);
