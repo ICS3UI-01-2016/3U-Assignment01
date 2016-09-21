@@ -1,3 +1,9 @@
+
+import becker.robots.City;
+import becker.robots.Direction;
+import becker.robots.Robot;
+import becker.robots.Wall;
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -23,13 +29,12 @@ public class A1Q4 {
          new Wall (SK, 1,1, Direction. SOUTH);
          
          Chen. move();
+         Suho. move();
          Chen. move();
+         Suho. turnLeft();
          Chen. turnLeft();
+         Suho. move();
          Chen.move();
-         
-         Suho. move();
-         Suho. turnLeft();
-         Suho. move();
          Suho. turnLeft();
          Suho. turnLeft();
          Suho. turnLeft();
@@ -39,5 +44,3 @@ public class A1Q4 {
          Suho. turnLeft();
          Suho. move();
          
-    }
-}
