@@ -14,7 +14,7 @@ import becker.robots.Wall;
 
 /**
  *
- * @author David
+ * @author Dhana Anvic
  */
 public class A1Q5 {
 
