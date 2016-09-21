@@ -22,7 +22,6 @@ public class A1Q2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
         // Create city 
         City Q2 = new City();
         

@@ -41,6 +41,5 @@ public class A1Q4 {
         two.turnRight();
         one.move();
         two.move();
-        
     }
 }
