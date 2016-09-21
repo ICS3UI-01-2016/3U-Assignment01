@@ -25,10 +25,10 @@ public class A1Q2 {
     // create a city
     City NYC = new City();
     
-    //create a robot
+    // create a robot
     Robot dino = new Robot (NYC,1,2,Direction.SOUTH);
     
-    //create walls
+    // create walls
     
     new Wall (NYC,1,2,Direction.NORTH);
     new Wall (NYC,1,2,Direction.EAST);
@@ -51,7 +51,7 @@ public class A1Q2 {
     dino.move();   
     dino.turnLeft();
     dino.move();   
-    // get robot to pck thing
+    // get robot to pick thing
     dino.pickThing();   
     dino.turnLeft();
     dino.turnLeft();   
