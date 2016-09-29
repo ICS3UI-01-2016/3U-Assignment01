@@ -22,8 +22,8 @@ public class A1Q5 {
         // Create a city for the robot
         City A1Q5 = new City();
         //Create the Robots
-        Robot M = new Robot(A1Q5, 0, 1, Direction.WEST);
-        Robot K = new Robot(A1Q5, 3, 3, Direction.EAST);
+        Robot m = new Robot(A1Q5, 0, 1, Direction.WEST);
+        Robot k = new Robot(A1Q5, 3, 3, Direction.EAST);
         //Create 
         new Wall(A1Q5, 3, 3, Direction.EAST);
         new Wall(A1Q5, 3, 3, Direction.SOUTH);
@@ -37,25 +37,25 @@ public class A1Q5 {
         new Thing(A1Q5, 1, 2);
         new Thing(A1Q5, 2, 2);
 
-        M.move();
-        M.pickThing();
-        M.turnLeft();
-        M.move();
-        M.pickThing();
-        M.turnLeft();
-        M.move();
-        M.pickThing();
+        m.move();
+        m.pickThing();
+        m.turnLeft();
+        m.move();
+        m.pickThing();
+        m.turnLeft();
+        m.move();
+        m.pickThing();
 
-        K.turnLeft();
-        K.turnLeft();
-        K.move();
-        K.turnLeft();
-        K.turnLeft();
-        K.turnLeft();
-        K.move();
-        K.pickThing();
-        K.move();
-        K.pickThing();
-        K.turnLeft();
+        k.turnLeft();
+        k.turnLeft();
+        k.move();
+        k.turnLeft();
+        k.turnLeft();
+        k.turnLeft();
+        k.move();
+        k.pickThing();
+        k.move();
+        k.pickThing();
+        k.turnLeft();
     }
 }
