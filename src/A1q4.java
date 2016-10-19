@@ -28,25 +28,25 @@ public class A1q4 {
         new Wall(ktown, 1, 1, Direction.SOUTH);
 
         //Make robots
-        Robot Dave = new Robot(ktown, 0, 0, Direction.SOUTH);
-        Robot Joe = new Robot(ktown, 0, 1, Direction.SOUTH);
+        Robot dave = new Robot(ktown, 0, 0, Direction.SOUTH);
+        Robot joe = new Robot(ktown, 0, 1, Direction.SOUTH);
 
         //Make Robots move
-        Joe.move();
-        Joe.turnLeft();
-        Dave.move();
-        Joe.move();
-        Joe.turnLeft();
-        Joe.turnLeft();
-        Joe.turnLeft();
-        Joe.move();
-        Joe.turnLeft();
-        Joe.turnLeft();
-        Joe.turnLeft();
-        Dave.move();
-        Dave.turnLeft();
-        Joe.move();
-        Dave.move();
+        joe.move();
+        joe.turnLeft();
+        dave.move();
+        joe.move();
+        joe.turnLeft();
+        joe.turnLeft();
+        joe.turnLeft();
+        joe.move();
+        joe.turnLeft();
+        joe.turnLeft();
+        joe.turnLeft();
+        dave.move();
+        dave.turnLeft();
+        joe.move();
+        dave.move();
 
     }
 }

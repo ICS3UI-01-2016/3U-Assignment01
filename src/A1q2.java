@@ -24,7 +24,7 @@ public class A1q2 {
         City ktown = new City();
 
         //Create a robot
-        Robot Dave = new Robot(ktown, 1, 2, Direction.SOUTH);
+        Robot dave = new Robot(ktown, 1, 2, Direction.SOUTH);
 
         //Create walls
         new Wall(ktown, 1, 1, Direction.NORTH);
@@ -39,31 +39,31 @@ public class A1q2 {
         new Thing(ktown, 2, 2);
 
         //Make Robot move
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.pickThing();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.move();
+        dave.turnLeft();
+        dave.move();
+        dave.turnLeft();
+        dave.move();
+        dave.pickThing();
 
         //Return to bed
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.turnLeft();
-        Dave.turnLeft();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.move();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.move();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.move();
+        dave.turnLeft();
+        dave.turnLeft();
+        dave.turnLeft();
 
     }
 }

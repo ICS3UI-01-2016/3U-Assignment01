@@ -22,7 +22,7 @@ public class A1q1 {
         City ktown = new City();
 
         //Create a robot
-        Robot Dave = new Robot(ktown, 0, 2, Direction.WEST);
+        Robot dave = new Robot(ktown, 0, 2, Direction.WEST);
 
 
         //Create a wall
@@ -36,22 +36,22 @@ public class A1q1 {
         new Wall(ktown, 1, 2, Direction.NORTH);
 
         //Get Dave to move around square
-        Dave.move();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.move();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.move();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.move();
-        Dave.move();
-        Dave.move();
-        Dave.turnLeft();
-        Dave.move();
+        dave.move();
+        dave.move();
+        dave.turnLeft();
+        dave.move();
+        dave.move();
+        dave.move();
+        dave.turnLeft();
+        dave.move();
+        dave.move();
+        dave.move();
+        dave.turnLeft();
+        dave.move();
+        dave.move();
+        dave.move();
+        dave.turnLeft();
+        dave.move();
 
 
 

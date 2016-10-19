@@ -38,34 +38,34 @@ public class A1q5 {
         new Thing(ktown, 2, 2);
 
         //Make Robots
-        Robot Maria = new Robot(ktown, 0, 1, Direction.WEST);
-        Maria.setLabel("M");
-        Robot Karel = new Robot(ktown, 3, 3, Direction.EAST);
-        Karel.setLabel("K");
+        Robot maria = new Robot(ktown, 0, 1, Direction.WEST);
+        maria.setLabel("M");
+        Robot karel = new Robot(ktown, 3, 3, Direction.EAST);
+        karel.setLabel("K");
 
         //Make Maria move
-        Maria.move();
-        Maria.pickThing();
-        Maria.turnLeft();
-        Maria.move();
-        Maria.pickThing();
-        Maria.turnLeft();
-        Maria.move();
-        Maria.pickThing();
+        maria.move();
+        maria.pickThing();
+        maria.turnLeft();
+        maria.move();
+        maria.pickThing();
+        maria.turnLeft();
+        maria.move();
+        maria.pickThing();
 
         //Make Karel Move
-        Karel.turnLeft();
-        Karel.turnLeft();
-        Karel.move();
-        Karel.turnLeft();
-        Karel.turnLeft();
-        Karel.turnLeft();
-        Karel.move();
-        Karel.pickThing();
-        Karel.move();
-        Karel.pickThing();
-        Karel.turnLeft();
-        Karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.pickThing();
+        karel.move();
+        karel.pickThing();
+        karel.turnLeft();
+        karel.move();
 
     }
 }
