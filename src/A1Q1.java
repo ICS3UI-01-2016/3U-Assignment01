@@ -20,33 +20,38 @@ public class A1Q1 {
      */
     public static void main(String[] args) {
         // Create City for robot
-        City Na = new City();
-        Robot Steve = new Robot(Na, 3, 4, Direction. WEST); 
+        City na = new City();
+        Robot steve = new Robot(na, 3, 4, Direction. WEST); 
         
         // Create Walls
-        new Wall (Na, 4, 3, Direction.NORTH);
-        new Wall (Na, 4, 4, Direction. EAST);
-        new Wall (Na, 4, 4, Direction. NORTH);
-        new Wall (Na, 5, 4, Direction. EAST);
-        new Wall (Na, 5, 4, Direction.SOUTH);
-        new Wall (Na, 5, 3, Direction.SOUTH);
-        new Wall (Na, 4, 3, Direction.WEST);
-        new Wall (Na, 5, 3, Direction.WEST);
-        // Get Steve to move
-        Steve.move();
-        Steve.move();
-        Steve.turnLeft ();
-        Steve.move();
-        Steve.move();
-        Steve.move();
-        Steve.turnLeft();
-        Steve.move();
-        Steve.move();
-        Steve.move();
-        Steve.turnLeft();
-        Steve.move();
-        Steve.move();
-        Steve.move();
+        new Wall (na, 4, 3, Direction.NORTH);
+        new Wall (na, 4, 4, Direction. EAST);
+        new Wall (na, 4, 4, Direction. NORTH);
+        new Wall (na, 5, 4, Direction. EAST);
+        new Wall (na, 5, 4, Direction.SOUTH);
+        new Wall (na, 5, 3, Direction.SOUTH);
+        new Wall (na, 4, 3, Direction.WEST);
+        new Wall (na, 5, 3, Direction.WEST);
+        
+        // move around the top left corner
+        steve.move();
+        steve.move();
+        steve.turnLeft ();
+        steve.move();
+        
+        //move around the bottom left corner
+        steve.move();
+        steve.move();
+        steve.turnLeft();
+        steve.move();
+        //move around the bottom right corner 
+        steve.move();
+        steve.move();
+        steve.turnLeft();
+        steve.move();
+        //move forward to get the robot to the same loctaion that it started in
+        steve.move();
+        steve.move();
         
     }
 }

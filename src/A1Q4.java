@@ -20,33 +20,33 @@ public class A1Q4 {
      */
     public static void main(String[] args) {
         // Cretae City for robot
-        City Gh = new City();
-        Robot Jet = new Robot(Gh, 3, 2, Direction.SOUTH);
-        Robot Bum = new Robot(Gh, 3, 3, Direction.SOUTH);
+        City gh = new City();
+        Robot jet = new Robot(gh, 3, 2, Direction.SOUTH);
+        Robot bum = new Robot(gh, 3, 3, Direction.SOUTH);
         
         //Create Walls
-        new Wall(Gh, 3, 3, Direction.WEST);
-        new Wall(Gh, 4, 3, Direction.WEST);
-        new Wall(Gh, 4, 3, Direction.SOUTH);
+        new Wall(gh, 3, 3, Direction.WEST);
+        new Wall(gh, 4, 3, Direction.WEST);
+        new Wall(gh, 4, 3, Direction.SOUTH);
         
-        //Get Jet to move
-        Jet.move();
-        Jet.move();
-        Jet.turnLeft();
-        Jet.move();
-        //Get Bum to move
-        Bum.move();
-        Bum.turnLeft();
-        Bum.move();
-        Bum.turnLeft();
-        Bum.turnLeft();
-        Bum.turnLeft();
-        Bum.move();
-        Bum.turnLeft();
-        Bum.turnLeft();
-        Bum.turnLeft();
-        Bum.move();
-        
+        //Get Jet to move down, around the corner and stop at the bottom of the walls.
+        jet.move();
+        jet.move();
+        jet.turnLeft();
+        jet.move();
+        //Get Bum to move down and around the wall so that he is facing the robot jet.
+        bum.move();
+        bum.turnLeft();
+        bum.move();
+        bum.turnLeft();
+        bum.turnLeft();
+        bum.turnLeft();
+        bum.move();
+        bum.turnLeft();
+        bum.turnLeft();
+        bum.turnLeft();
+        bum.move();
+       
         
         
         

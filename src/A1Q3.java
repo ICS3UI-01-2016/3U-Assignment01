@@ -21,49 +21,52 @@ public class A1Q3 {
      */
     public static void main(String[] args) {
         //Create a City for robot
-        City Jk = new City();
-        Robot Bob = new Robot(Jk, 3, 1, Direction. EAST);
+        City jk = new City();
+        Robot bob = new Robot(jk, 3, 1, Direction. EAST);
         
         //Create Walls
-        new Wall (Jk, 3, 3,Direction.WEST);
-        new Wall (Jk, 3, 3, Direction.NORTH);
-        new Wall (Jk, 2, 4, Direction.WEST);
-        new Wall (Jk, 1, 4, Direction.WEST);
-        new Wall (Jk, 1, 4, Direction.NORTH);
-        new Wall (Jk, 1, 4, Direction.EAST);
-        new Wall (Jk, 2, 5, Direction.NORTH);
-        new Wall (Jk, 2, 5, Direction.EAST);
-        new Wall (Jk, 3, 5,Direction.EAST);
-        new Thing(Jk,3,2);
-        // Get Bob to move
-        Bob.move();
-        Bob.pickThing();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.move();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.putThing();
-        Bob.move();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.move();
+        new Wall (jk, 3, 3,Direction.WEST);
+        new Wall (jk, 3, 3, Direction.NORTH);
+        new Wall (jk, 2, 4, Direction.WEST);
+        new Wall (jk, 1, 4, Direction.WEST);
+        new Wall (jk, 1, 4, Direction.NORTH);
+        new Wall (jk, 1, 4, Direction.EAST);
+        new Wall (jk, 2, 5, Direction.NORTH);
+        new Wall (jk, 2, 5, Direction.EAST);
+        new Wall (jk, 3, 5,Direction.EAST);
+        new Thing(jk,3,2);
+        // Get bob to move and pick thing up.
+        bob.move();
+        bob.pickThing();
+        // Get bob to move around the corners in order to get to the top.
+        bob.turnLeft();
+        bob.move();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.move();
+        bob.turnLeft();
+        bob.move();
+        bob.move();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.move();
+        // Get to bob to drop Thing.
+        bob.putThing();
+        //Get bob to move down around the two corners to get the bottom.
+        bob.move();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.move();
+        bob.turnLeft();
+        bob.move();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.turnLeft();
+        bob.move();
+        bob.move();
        
         
         

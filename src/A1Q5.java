@@ -21,42 +21,43 @@ public class A1Q5 {
      */
     public static void main(String[] args) {
         // Create a City for robot
-        City Kl = new City();
-        Robot Bob = new Robot (Kl, 0, 2, Direction.WEST);
-        Robot Job = new Robot (Kl, 3, 4, Direction.WEST);
+        City kl = new City();
+        Robot bob = new Robot (kl, 0, 2, Direction.WEST);
+        Robot job = new Robot (kl, 3, 4, Direction.WEST);
         
         //Create Walls
-        new Wall(Kl, 2, 4, Direction.WEST);
-        new Wall(Kl, 2, 4, Direction.EAST);
-        new Wall(Kl, 2, 4, Direction.NORTH);
-        new Wall(Kl, 3, 4, Direction.EAST);
-        new Wall (Kl, 3, 4,Direction.SOUTH);
-        new Thing(Kl, 0, 1,Direction.EAST);
-        new Thing(Kl, 1, 1,Direction.EAST);
-        new Thing(Kl, 1, 2,Direction.EAST);
-        new Thing(Kl, 1, 3,Direction.EAST);
-        new Thing(Kl, 2, 3,Direction.EAST);
+        new Wall(kl, 2, 4, Direction.WEST);
+        new Wall(kl, 2, 4, Direction.EAST);
+        new Wall(kl, 2, 4, Direction.NORTH);
+        new Wall(kl, 3, 4, Direction.EAST);
+        new Wall(kl, 3, 4,Direction.SOUTH);
+        new Thing(kl, 0, 1,Direction.EAST);
+        new Thing(kl, 1, 1,Direction.EAST);
+        new Thing(kl, 1, 2,Direction.EAST);
+        new Thing(kl, 1, 3,Direction.EAST);
+        new Thing(kl, 2, 3,Direction.EAST);
         
-        //Get Bob to move
-        Bob.move();
-        Bob.pickThing();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.pickThing();
-        Bob.turnLeft();
-        Bob.move();
-        Bob.pickThing();
+        //Get bob to move down in a 'C' shape while picking all of the things that in its path.
+        bob.move();
+        bob.pickThing();
+        bob.turnLeft();
+        bob.move();
+        bob.pickThing();
+        bob.turnLeft();
+        bob.move();
+        bob.pickThing();
         
-        //Get Job to move 
-        Job.move();
-        Job.turnLeft();
-        Job.turnLeft();
-        Job.turnLeft();
-        Job.move();
-        Job.pickThing();
-        Job.move();
-        Job.pickThing();
-        Job.turnLeft();
+        //Get job to move outside of the walls and turn right 
+        job.move();
+        job.turnLeft();
+        job.turnLeft();
+        job.turnLeft();
+        // Get job to move and turn right while picking all of the things in its path.
+        job.move();
+        job.pickThing();
+        job.move();
+        job.pickThing();
+        job.turnLeft();
         
         
         
